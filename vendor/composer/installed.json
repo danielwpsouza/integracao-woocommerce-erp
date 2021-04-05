@@ -1,0 +1,163 @@
+[
+    {
+        "name": "automattic/woocommerce",
+        "version": "1.1.1",
+        "version_normalized": "1.1.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/woothemes/wc-api-php.git",
+            "reference": "fb53cf2321b2a5ef001de0a06c88073a05a7a4c3"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/woothemes/wc-api-php/zipball/fb53cf2321b2a5ef001de0a06c88073a05a7a4c3",
+            "reference": "fb53cf2321b2a5ef001de0a06c88073a05a7a4c3",
+            "shasum": ""
+        },
+        "require": {
+            "ext-curl": "*",
+            "ext-json": "*",
+            "php": ">= 5.4.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "*"
+        },
+        "time": "2016-05-10 21:07:17",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Automattic\\WooCommerce\\": [
+                    "src/WooCommerce"
+                ]
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Claudio Sanches",
+                "email": "claudio.sanches@automattic.com"
+            }
+        ],
+        "description": "A PHP wrapper for the WooCommerce REST API",
+        "keywords": [
+            "api",
+            "woocommerce"
+        ]
+    },
+    {
+        "name": "stomp-php/stomp-php",
+        "version": "4.1.2",
+        "version_normalized": "4.1.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/stomp-php/stomp-php.git",
+            "reference": "06c8ddc254146b83f675076f323c2c20beb74d36"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "http://cdn.zeedhi.com/composer/dist/stomp-php-stomp-php-06c8ddc254146b83f675076f323c2c20beb74d36-zip-f08beb.zip",
+            "reference": "06c8ddc254146b83f675076f323c2c20beb74d36",
+            "shasum": "424a544fcb00c29daa374b2e441a6e251a82206e"
+        },
+        "require": {
+            "php": ">=5.5.0"
+        },
+        "require-dev": {
+            "phpmd/phpmd": "2.*",
+            "phpunit/phpunit": "4.*",
+            "squizlabs/php_codesniffer": "2.*"
+        },
+        "time": "2016-06-18 09:28:36",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Stomp\\": "src/Stomp/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "Apache-2.0"
+        ],
+        "authors": [
+            {
+                "name": "Dejan Bosnanac",
+                "email": "dejan@nighttale.net",
+                "homepage": "http://www.nighttale.net"
+            },
+            {
+                "name": "Sören Rohweder",
+                "email": "s.rohweder@blage.net",
+                "homepage": "http://www.monofone.de"
+            },
+            {
+                "name": "Jens Radtke",
+                "email": "swefl@fin-sn.de",
+                "homepage": "http://www.fin-sn.de"
+            }
+        ],
+        "description": "stomp support for PHP",
+        "homepage": "http://github.com/stomp-php/stomp-php",
+        "keywords": [
+            "activeMQ",
+            "apollomq",
+            "jms",
+            "messaging",
+            "rabbitmq",
+            "stomp"
+        ]
+    },
+    {
+        "name": "zeedhi/queue",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "git@192.168.122.56:zeedhi/queue.git",
+            "reference": "f171e0cd718bfe8732ecb2e59cb2abaa3ec0c7e3"
+        },
+        "require": {
+            "php": ">=5.5",
+            "stomp-php/stomp-php": "4.*"
+        },
+        "require-dev": {
+            "phpdocumentor/phpdocumentor": "2.*",
+            "phpunit/phpunit": "4.1.3"
+        },
+        "time": "2016-02-01 16:18:11",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "0.1.x-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-0": {
+                "Zeedhi": "src/"
+            }
+        },
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Paulo Neto",
+                "email": "paulo.neto@zeedhi.com",
+                "homepage": "http://dcc.ufmg.br/~paulo.freitas",
+                "role": "Developer"
+            }
+        ],
+        "description": "Zeedhi Framework - Queue",
+        "homepage": "https://blog.zeedhi.com/",
+        "keywords": [
+            "queue",
+            "zeedhi",
+            "zeedhiFramework"
+        ]
+    }
+]
